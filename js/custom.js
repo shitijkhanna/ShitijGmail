@@ -210,7 +210,7 @@ $(document).ready(function () {
    //js for login
    $('#login1').click(function () {
       var email = $('#email').val();
-      var pas = $('#pas1').val();
+      var pas = $('#pas').val();
 
       if(email == "" && pas == ""){
           alert('email and password fields can not be empty');
